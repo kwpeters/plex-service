@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/kwpeters/plex-service/issues"
   },
-  "homepage": "https://github.com/kwpeters/plex-service#readme"
+  "homepage": "https://github.com/kwpeters/plex-service#readme",
+  "dependencies": {
+    "os-service": "^2.1.3"
+  }
 }
