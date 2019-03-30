@@ -36,10 +36,10 @@ function usage() {
 This program adds, removes and runs a Windows service that runs Plex Media Server.
 
 node src/plexservice.js --add
-    Registers the service.
+    Registers the service. (Must be run as an administrator)
     
 node src/plexservice.js --remove
-    Removes the service.
+    Removes the service. (Must be run as an administrator)
     
 node src/plexservice.js --run
     Runs the service.
