@@ -1,0 +1,24 @@
+{
+  "name": "plex-service",
+  "version": "1.0.0",
+  "description": "A service that runs Plex Media Server",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/plexservice.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kwpeters/plex-service.git"
+  },
+  "keywords": [
+    "plex",
+    "service"
+  ],
+  "author": "Kevin Peters <kwpeters@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kwpeters/plex-service/issues"
+  },
+  "homepage": "https://github.com/kwpeters/plex-service#readme"
+}
