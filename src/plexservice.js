@@ -49,7 +49,7 @@ node src/plexservice.js --run
 
 function main()
 {
-    const exePath = path.join("C:", "Program Files (x86)", "Plex", "Plex Media Server", "Plex Media Server.exe");
+    const exePath = path.join("C:", "Program Files", "Plex", "Plex Media Server", "Plex Media Server.exe");
     const childProc = cp.spawn(exePath, ["-noninteractive"], {detached: true, windowsHide: true});
 
     childProc.on("error", (err) => {
